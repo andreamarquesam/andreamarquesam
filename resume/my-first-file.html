@@ -1,15 +1,158 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="description" content="Coursera's class website">
-  <meta name="keywords" content="HTML, CSS, JavaScript">
-  <meta name="author" content="Andrea Marques">
-  <title>Andrea's Project</title>
+	<meta charset="utf-8">
+	<meta name="description" content="teste de documento no mac">
+	<meta name="author" content="Andrea Marques">
+	<meta name="keywords" content="html, css, teste, first ride">
+	<title>My first Mac HTML page</title>
+	<style>
+		p {
+			color: #1A1919;
+			font-family: verdana;
+			font-weight: 500;
+			font-size: 16px;
+			line-height: 24px;
+		    width:800px;
+		    background-color: #f4f2f1;
+		    padding: 32px;
+		}
+		h1{
+			color:#F5AA0E;
+			font-family: tahoma;
+			font-size: 56px;
+			font-weight: 50;
+			font-stretch: 	ultra-condensed;
+			line-height: 8px;
+			text-align: center;
+		}
+		#topofthepage{
+			background-color: #000000;
+			padding-top: 8px;
+			padding-bottom: 32px;
+		}
+		section{
+			font-family: verdana;
+			line-height: 32px;
+		}
+		a:link, a:visited {
+			color:#000000;
+			font-family: verdana;
+			font-weight: 600;
+		}
+		section > ul{
+			font-weight: 600;
+			color: #f5aa0e;
+		}
+		li > ul{
+			font-weight: 600;
+			list-style: none;
+			}
+		li > ul{
+			a:link, a:visited {
+				text-decoration: none;
+				background-color: #ffffff;
+				border: 1px solid #ffb61e;
+				border-radius: 4px;
+				color: #FFAC00;
+				text-transform: lowercase;
+				width: 100px;
+				text-align: center;
+				padding: 8px;
+				display: inline-block;
+				margin-bottom: 16px;
+			}
+			a:hover, a:active {
+				background-color: #ffe6b2;
+			}
+
+		section > li:nth-child(3)
+		{
+			text-transform: uppercase;
+			font-weight: 600;
+			color: #ffb61e;
+		}
+
+	</style>
 </head>
 <body>
-This is my first HTML page!<br>
-It will surely looks simple and a little bit rough.<br>
-I hope, with time and practice, I can improve my skills.
+	<section id="topofthepage">
+	<h1>My first <strong>super basic</strong> HTML page</h1>
+	<div><img src="https://imageio.forbes.com/blogs-images/forbestechcouncil/files/2019/01/canva-photo-editor-8-7.jpg?format=jpg&width=1440" width="500" height="500" alt="Codes on a screen"></div>
+</section>
+	<section>
+		To know more about this subject, check the references at the end of the page
+	<a href="#References"><div>Great references</div></a>
+	<br>
+		<h2>How to become a developer</h2>
+		You should learn some things to improve your skills:
+		<ul>
+			<li>Basic coding</li>
+			<li>Fundamental technologies:
+				<ul>
+					<li><a href= "https://www.coursera.org/learn/html-css-javascript-for-web-developers/home/week/1" target= "_blank" title= "HTML course">HTML</a></li>
+					<li><a href= "https://www.coursera.org/learn/html-css-javascript-for-web-developers/home/week/2" target= "_blank" title= "CSS course">CSS</a></li>
+					<li><a href= "https://www.coursera.org/learn/html-css-javascript-for-web-developers/home/week/4" target= "_blank" title= "JavaScript course">JavaScript</a></li>
+				</ul>
+			</li>
+			<li>More advanced stuff also</li>
+		</ul>
+		<a href="test.html" title="link para testar funcionalidade">Click here</a> to know more <br>
+		<a href="#ourcontacts">Any doubts? Talk to us</a>
+	</section>
+	<section class= "nthchildtest">
+		<h2>Gaining skills step by step</h2>
+		To do so, I must follow some steps:
+		<ol>
+			<li>Take some online initial course</li>
+			<li>Read some basic literature on the subject</li>
+			<li>Follow some blogs or technical sites</li>
+			<li>Do one of those:
+				<ul>
+					<li>ask my friends for help</li>
+					<li>post my questions on some discussion forum</li>
+					<li>talk to my teacher for futher explanations</li>
+				</ul></li>
+		</ol>
+		Click bellow to know more
+		<a href="test.html" title="link para testar funcionalidade"><div>Click here</div></a>
+	</section>
+	<section id="References">
+		<h3>See more about this on the following reference sites</h3>
+		<ul>
+			<li><a href="http://www.coursera.com" target="_blank" title="Know more about Coursera">Coursera</a>
+			<div>
+			<p>
+			<strong>Coursera Plus</strong> - Unlimited access to 7,000+ world-class courses, hands-on projects, and job-ready certificate programs—all included in your subscription. Learn anything. Explore any interest or trending topic, take prerequisites, and advance your skills. Save money, spend less money on your learning if you plan to take multiple courses this year. Flexible learning: learn at your own pace, move between multiple courses, or switch to a different course. Earn a certificate for every learning program that you complete at no additional cost.
+		</p>
+	</div>
+</li>
+			<li><a href="http://www.w3.org" title="Know more about W3C">W3C</a>
+				<div><p>
+			<strong>The World Wide Web Consortium (W3C)</strong> develops standards and guidelines to help everyone build a web based on the principles of accessibility, internationalization, privacy and security. A range of organizations join the World Wide Web Consortium as Members to work with us to drive the direction of core web technologies and exchange ideas with industry and research leaders. We rotate randomly a few of our Member organizations' logos underneath. The Web Consortium and its members, with help from the public and the web community, focus on a range of business ecosystems that the Web transforms, including e-commerce, media & entertainment, publishing and several other areas.
+
+		</p></div></li>
+			
+			<li><a href="https://clearlydecoded.com/" target="_blank" title="Know Coursera's instructor">Know more about Yaakov Chaikin</a>
+				<div>
+					<p>
+			My name is <strong>Yaakov Chaikin</strong>. By day, I am a software developer. I mostly specialize in full stack web and distributed development. I also teach Web Development at Johns Hopkins University and have co-authored a book Core Servlets and Javaserver Pages: Advanced Technologies. I’ve been doing software development for over 20 years (professionally) and still love it! There is something so exciting about making stuff that people use! In 2004, I was asked to be a substitute for a graduate level course on Web Development in Java at Johns Hopkins University. I accepted and was hooked on teaching ever since, eventually taking over a couple of the web development courses in the program. I’ve been fortunate enough to be able to bring my teaching to hundreds of thousands of students through Coursera.org. Over 1 MILLION students have taken my courses! It’s hard to imagine! Both of my courses HTML, CSS, and Javascript for Web Developers (free) and Single Page Web Applications with AngularJS (free) made it to #1 Top Rated Course spot on Coursera.org.
+		</p>
+				</div></li>
+			
+		</ul>
+		
+	</section>
+	<section>
+		<h4><a id="ourcontacts">Our contacts</a></h4>
+		<ul>
+			<li>ouremail@domain.com</li>
+			<li>+551198877-6655</li>
+			<li>@ourinstagram</li>
+		</ul>
+	</section>
+	<a href="#topofthepage">Go back to the top</a><br>
+	<br>
+	<br>
 </body>
 </html>
